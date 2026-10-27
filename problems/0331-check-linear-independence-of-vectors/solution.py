@@ -11,18 +11,15 @@ def is_linearly_independent(vectors: list[list[float]]) -> bool:
     Returns:
         True if vectors are linearly independent, False otherwise.
     """
-    # Your code here
-    if len(vectors) == 0:
-        return True
-    arr = np.array(vectors)
-    no_of_vectors , dimensions = arr.shape
+    # Your cod
+    arr = np.array(vectors, dtype=float)
 
-    ''' if no_of_vectors > dimensions then it is dependented as if there are 2 columns x and y and we have 3 we can make 3rd using the 2 and 3 is not unique '''
-    if no_of_vectors > dimensions:
+    if arr.size == 0:
+        return True
+
+    m, n = arr.shape
+    if m > n:
         return False
 
     rank = np.linalg.matrix_rank(arr)
-
-    return bool(rank==no_of_vectors) 
-
-
+    return bool(rank == m)
