@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**46** solved · 27 problems · 0 labs · 19 math
+**47** solved · 28 problems · 0 labs · 19 math
 
 ![Coverage](./coverage.svg)
 
@@ -36,6 +36,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Linear Regression - Power Grid Optimization](https://www.deep-ml.com/problems/92) | medium | 2026-10-28 | [solution](problems/0092-linear-regression-power-grid-optimization) |
 | [Matrix Rank](https://www.deep-ml.com/problems/329) | medium | 2026-10-27 | [solution](problems/0329-matrix-rank) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-25 | [solution](problems/0009-matrix-times-matrix) |
+| [Mini-Batch Gradient Descent Step for Linear Regression](https://www.deep-ml.com/problems/803) | medium | 2026-10-29 | [solution](problems/0803-mini-batch-gradient-descent-step-for-linear-regression) |
 | [Partial Derivatives of Multivariable Functions](https://www.deep-ml.com/problems/215) | medium | 2026-10-29 | [solution](problems/0215-partial-derivatives-of-multivariable-functions) |
 | [Quotient Rule for Derivatives](https://www.deep-ml.com/problems/312) | medium | 2026-10-25 | [solution](problems/0312-quotient-rule-for-derivatives) |
 | [Stochastic Gradient Descent Step for Linear Regression](https://www.deep-ml.com/problems/802) | medium | 2026-10-29 | [solution](problems/0802-stochastic-gradient-descent-step-for-linear-regression) |
